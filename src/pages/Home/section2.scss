@@ -1,0 +1,27 @@
+@import '../../App.scss';
+
+#about {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+      align-items: center;
+      background-color: bisque;
+  
+      img {
+        width: 400px;
+      }
+    }
+    .about-text {
+      span {
+        color: $main-color;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: $h2-font;
+      }
+      p {
+        margin: 1rem 0 2rem;
+      }
+    }
+  }

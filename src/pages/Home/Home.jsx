@@ -2,6 +2,8 @@ import React from 'react'
 
 import './home.scss'
 import home from '../../img/home.png'
+import Footer from '../../components/Footer/Footer'
+import Section2 from './section2'
 
 function Home() {
   return (
@@ -16,6 +18,8 @@ function Home() {
       <img src={home} alt="home Image" />
     </div>
   </div>
+  <Section2 />
+  <Footer />
 </section>
   )
 }
